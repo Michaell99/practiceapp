@@ -1,0 +1,8 @@
+running trivy scan:
+
+if after docker pull:
+trivy i michaelliav/practiceapp:v1
+
+if before docker pull:
+trivy i michaelliav/practiceapp:v1
+
