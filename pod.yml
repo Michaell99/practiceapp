@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: practiceapp
+  labels:
+   app: practice
+spec:
+  containers:
+  - name: practiceapp
+    image: michaelliav/practiceapp
