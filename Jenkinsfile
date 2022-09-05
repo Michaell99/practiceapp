@@ -1,6 +1,6 @@
 node{
     stage("Checkout"){
-     git"https://github.com/Michaell99/practice1.git"
+     git"https://github.com/Michaell99/practiceapp.git"
     }
     stage("Build"){
         bat "docker build -t practiceapp . "
